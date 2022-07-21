@@ -47,6 +47,11 @@ header-style-start
     border-radius: 5px;
     color:#FFFFFF;
 }
+.greatest-show a,.fa-greater-than:hover{
+    width: 50px;
+    transition: width 1s ease;
+}
+
 /* ---------------
 header-style-end
 ------------------*/
@@ -130,7 +135,7 @@ match.html-style
     grid-template-columns: repeat(3,1fr);
     column-gap: 45px;
     row-gap: 40px;
-    margin-right: 100px;
+    margin-right: 65px;
 }
 .flag{
     text-align: center;
@@ -200,10 +205,3 @@ Media-query
 
 /* mobile-view 
 ------------------*/
-@media screen and (max-width: 480px){
-    .container{
-        background-color: red;
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-    }
-}
