@@ -130,7 +130,7 @@ match.html-style
     grid-template-columns: repeat(3,1fr);
     column-gap: 45px;
     row-gap: 40px;
-    margin-right: 65px;
+    margin-right: 100px;
 }
 .flag{
     text-align: center;
